@@ -1,0 +1,292 @@
+html, body
+{
+    height: 100%;
+}
+
+body {
+	background-image : url("img/tile.png");
+	color : #02ECFD;
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	color : #02ECFD;
+	background : Transparent no-repeat;
+	border : 1px solid #02ECFD;	
+	outline : 1px solid #02ECFD;
+	font-family: 'Roboto', sans-serif;	
+}
+
+input {
+	background-color : black;
+	border : 1px solid #02ECFD;	
+	outline : 1px solid #02ECFD;
+	color : #02ECFD;
+	font-family: 'Roboto', sans-serif;
+	text-align : center;
+}
+
+select {
+	background-color : black;
+	border : 1px solid #02ECFD;	
+	outline : 1px solid #02ECFD;
+	color : #02ECFD;
+	font-family: 'Roboto', sans-serif;
+}
+
+checkbox {
+	outline : 0px;
+}
+
+a {
+	color : #02ECFD;	
+}
+
+::-webkit-datetime-edit { 
+	color: #02ECFD;
+}
+
+::-webkit-datetime-edit-text { 
+	color: #02ECFD;
+}
+
+::-webkit-datetime-edit-month-field { 
+	color: #02ECFD;
+}
+
+::-webkit-datetime-edit-day-field { 
+	color: #02ECFD;
+}
+
+::-webkit-datetime-edit-year-field { 
+	color: #02ECFD;
+}
+
+::-webkit-datetime-edit-fields-wrapper {
+	color: #02ECFD;	
+}
+
+::-webkit-inner-spin-button {
+	color: #02ECFD;	
+}
+
+::-webkit-calendar-picker-indicator {
+	color: #02ECFD;	
+}
+
+.everything {
+	display : flex;
+	flex-direction : row;
+	justify-content : flex-end;
+}
+
+.leftBlock {
+	width : auto;
+	height : auto;
+	min-height : 100vh;
+	border-right : 2px solid #02ECFD;
+}
+
+.addRobot {
+	width : 15vw;
+	height : auto;
+	display : flex;
+	flex-direction : row;
+	justify-content : center;
+}
+
+#toUnhide {
+	display : none;
+	flex-direction : column;
+	justify-content : center;
+}
+
+#addTurtleBot3 {
+	display : inline;
+	margin-top: 1vh;
+	margin-bottom : 1vh;
+	width : 200px;
+}
+
+.addCancel {
+	display : flex;
+	flex-direction : row;
+	margin-bottom : 1vh;
+}
+
+#cancel {
+	flex-grow : 1;
+}
+
+#add {
+	flex-grow : 1;
+	margin-right : 1vw;
+}
+
+.robotInput {
+	display : flex;
+	flex-direction : row;
+	justify-content : flex-end;
+	margin-top : 1vh;
+}
+
+.robotInput input {
+	margin-right : 1vw;
+	margin-left : 0.5vw;
+	width : 200px;
+}
+
+#model {
+	margin-right : 1vw;
+	margin-bottom : 1vh;
+	text-align : center;
+	width : 257px;
+}
+
+.robotList {
+	width : 15vw;
+	height : 100%;
+	display : flex;
+	flex-direction : column;
+}
+
+.robot {
+	display : flex;
+	flex-direction : column;
+	margin-top : 1vh;
+}
+
+.robotInputs {
+	display : flex;
+	flex-direction : row;
+	justify-content : center;
+}
+
+.rightBlock {
+	width : auto;
+	display : flex;
+	flex-direction: column;
+	flex-grow : 1;
+}
+
+.checkboxLabel {
+	margin-right : 1vw;
+}
+
+.schedule {
+	width : 80vw;
+	height : auto;
+	display : flex;
+	justify-content : center;
+	margin-bottom: 1vh;
+}
+
+.centerElement {
+	height : 499px;
+	width : 80vw;
+	display : flex;
+	flex-direction : row;
+	justify-content : flex-end;
+}
+
+.inputs {
+	height : 499px;
+	display : flex;
+	flex-direction : column;
+	flex : 1;
+	justify-content : space-evenly;	
+}
+
+#mapDiv {
+	width : 803px;
+	height : 499px;
+}
+
+.videos {
+	width : 80vw;
+	display : flex;
+	flex : 1;
+	flex-wrap : wrap;
+	justify-content : space-evenly;
+}
+
+.videos img {
+	margin-top : 5vh;
+}
+
+.dateTime {
+	display : flex;
+	flex-direction : row;
+	justify-content : center;
+}
+
+.textInputs {
+	display : flex;
+	flex-direction : row;
+}
+
+.buttons {
+	display : flex;
+	flex-direction : row;
+}
+
+.labelledInput {
+	display : flex;
+	flex-direction : row;
+	flex-grow : 1;
+	justify-content : space-between;
+}
+
+.textInputs input {
+	width : 100px;
+	margin-right : 1vw;
+}
+
+.textInputs label {
+	margin-left : 1vw;
+}
+
+.queue {
+	flex-grow : 1;
+	display : flex;	
+}	
+
+#queue {
+	flex-grow : 1;
+	margin-left : 1vw;
+}
+
+#schedule {
+	flex-grow : 1;
+	margin-right : 1vw;
+	margin-left : 1vw;
+}	
+
+.cancel {
+	margin-right : 1vw;
+	background : Transparent no-repeat;
+	border : none;
+	outline : none;
+	color : red;
+}
+
+#rooms {
+	margin-left : 1vw;
+	margin-right : 1vw;
+}
+
+#center {
+	flex-grow : 1;
+	margin-left : 1vw;
+	margin-right : 1vw;
+}
+
+#entrance {
+	flex-grow : 1;
+	margin-right : 1vw;
+	margin-left : 2vw;
+}	
+
+#scheduleCanvas {
+	border : 2px solid #02ECFD;
+}

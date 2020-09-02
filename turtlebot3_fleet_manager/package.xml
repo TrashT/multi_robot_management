@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>turtlebot3_fleet_manager</name>
+  <version>0.0.0</version>
+  <description>Package for running a server to manage a fleet of TurtleBot3s.</description>
+
+  <maintainer email="andremueller689@gmail.com">Andre Müller</maintainer>
+  <license>BSD</license>
+  <author email="andremueller689@gmail.com">Andre Müller</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>astra_camera</build_depend>
+  <build_depend>rosbridge_server</build_depend>
+  <build_depend>turtlebot3_bringup</build_depend>
+  <build_depend>turtlebot3_navigation</build_depend>
+  <build_depend>web_video_server</build_depend>
+
+  <exec_depend>astra_camera</exec_depend>
+  <exec_depend>rosbridge_server</exec_depend>
+  <exec_depend>turtlebot3_bringup</exec_depend>
+  <exec_depend>turtlebot3_navigation</exec_depend>
+  <exec_depend>web_video_server</exec_depend>
+</package>
